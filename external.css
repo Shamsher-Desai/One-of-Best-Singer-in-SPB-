@@ -1,0 +1,213 @@
+/* A HTML PROJECT BY SHAMSHER QUTBODDIN DESAI USING CSS IN WINDOWS 7*/
+body{
+    background-color: lightcyan;
+    margin: inherit;
+}
+header{
+    background-color: chartreuse;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: darkblue;
+}
+.logo{
+    top: inherit;
+    left: 0;
+    float:left;
+    height: 100px;
+    width: 100px;
+    border-left-width: thin;
+    
+}
+.head{
+    float: left;
+    color: seagreen;
+    font-family: serif;
+}
+nav{
+    float: right;
+}
+/* HERE WE ARE APPLYING THE CSS TO THE UNORDERED LIST TO SHOW THEN AS A MENU BAR*/
+ul{
+    list-style-type: lower-roman;
+    text-align-last: right;
+}
+ul li{
+    display: grid;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 3px solid transparent;
+    transition: 0.6s ease;
+}
+/* HERE WE ARE USING THE HOVER FUNCTION SO WHEN A MOUSE OVER HAPPENS A ACTION IS DEFINED*/
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.active{
+    color: black;
+}
+h1:hover{
+    background-color: blanchedalmond;
+    font-size: 35
+        px;
+}
+
+div.a{
+    width: 40%;
+    border: 1px solid #000000;
+     word-wrap: break-word;
+    background-color: lightskyblue;
+}
+div.a{
+    width: 60%;
+    border: 1px solid #000000;
+     word-wrap: normal;
+}
+.mainimg{
+    align-content: center;
+    border: 1px;
+    width: 80%;
+    
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+  div.gallery:hover {
+    border: 1px;  
+}
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+}
+table{
+    font-family: sans-serif, fantasy;
+    border-collapse: collapse;
+    background-color: white;
+}
+td,th{
+       border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+}        
+tr:nth-child(odd){
+    background-color: #dddddd;
+}
+
+ input[type=text],select,textarea{
+        width: 100%;
+        padding: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+    label{
+        padding: 14px 14px 14px 0;
+        display: inline-block;
+    }
+    input[type=submit]{
+        background-color: #fff;
+        color: black;
+        padding: 12px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+    input[type=submit]:hover{
+        background-color: #fff;
+    }
+ .container{
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    .col-25{
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+    .col-75{
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+    /*CLEAR FLOATS AFTER THE COLOUMS*/
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .button{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS TO FOOTER OF ALL THE PAGES TO MAKE VISUALLY APPLEALING*/
+.footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom:0;
+    width: 100%
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    border: 1px;
+}
+<background color><margin><text styles><wrap><hover>
